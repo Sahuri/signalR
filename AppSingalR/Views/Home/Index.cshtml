@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Chat Mesengger";
+    Layout = "~/Views/_Layout.cshtml";
+}
+<script src="~/Scripts/app/controller/chatController.js"></script>
+<h2>@ViewBag.Title</h2>
+
+<br />
+<div ng-controller="chatController">
+
+    <div>
+        <input type="text" style="height:27pt;" class="easyui-textbox" id="txtMessage" data-options="
+                        label: 'Standard TextBox:',
+                        labelPosition: 'top',
+                        prompt: 'Write...'
+                        "/>
+        <button id="SendMessage" class="easyui-linkbutton" ng-click="send()">Send</button>
+        <button id="ClearMessage" class="easyui-linkbutton" ng-click="clear()">Clear</button>
+        <ul id="listMesagges">
+
+        </ul>
+    </div>
+
+</div>

@@ -1,0 +1,110 @@
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\AppSingalR.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\AppSingalR.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Microsoft.Owin.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Microsoft.Owin.Security.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Newtonsoft.Json.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Owin.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.Helpers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.Http.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.Mvc.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.Razor.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.WebPages.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Microsoft.Owin.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Microsoft.Owin.Security.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\Newtonsoft.Json.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.Helpers.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.Http.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.Mvc.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.Razor.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.WebPages.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\obj\Debug\AppSingalR.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\obj\Debug\AppSingalR.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\AppSingalR\AppSingalR\obj\Debug\AppSingalR.csprojResolveAssemblyReference.cache
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\AppSingalR.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\AppSingalR.pdb
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.Core.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Microsoft.Owin.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Microsoft.Owin.Security.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Microsoft.Web.Infrastructure.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Newtonsoft.Json.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Owin.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.Helpers.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.Mvc.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.Razor.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.WebPages.Deployment.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.WebPages.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.WebPages.Razor.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.Core.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Microsoft.Owin.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Microsoft.Owin.Security.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\Newtonsoft.Json.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.Helpers.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.Mvc.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.Razor.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.WebPages.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.WebPages.Deployment.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\System.Web.WebPages.Razor.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\obj\Debug\AppSingalR.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\obj\Debug\AppSingalR.pdb
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\EntityFramework.dll
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\EntityFramework.xml
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\obj\Debug\AppSingalR.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\AppSingalR.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\AppSingalR.pdb
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\EntityFramework.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Microsoft.Owin.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Microsoft.Owin.Security.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Newtonsoft.Json.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Owin.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.Helpers.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.Http.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.Mvc.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.Razor.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.WebPages.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\EntityFramework.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Microsoft.Owin.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Microsoft.Owin.Security.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\Newtonsoft.Json.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.Helpers.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.Http.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.Mvc.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.Razor.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.WebPages.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\obj\Debug\AppSingalR.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\obj\Debug\AppSingalR.dll
+C:\Users\user\Documents\SignalR\AppSingalR\AppSingalR\obj\Debug\AppSingalR.pdb
+F:\SAHURI\NGulik\AppSingalR\AppSingalR\bin\AppSingalR.dll.config

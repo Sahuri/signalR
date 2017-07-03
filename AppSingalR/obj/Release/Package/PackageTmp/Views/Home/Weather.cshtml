@@ -1,0 +1,230 @@
+﻿@{
+    ViewBag.Title = "Weather";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+
+
+@using (Html.BeginForm()) {
+<style>
+
+ /*html {
+  width: 100%;
+  height: 100%;
+ 
+  background-size: cover;
+}*/
+
+
+
+ #weather {
+       margin: 0px auto;
+  /*width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;*/
+   /*height:400px;
+   width:400px;
+  position: relative;*/
+}
+ /*i {
+  color: #fff;
+  font-family: weather;
+  font-size: 100px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+  text-transform: none;
+}*/
+
+ /*.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }*/
+
+h2 {
+  z-index: 200;
+  position: absolute;
+  color: #fff;
+  font-size: 30px;
+  /*margin: 0 0 0px;
+  
+  /*font-size: 50px;
+  font-weight: 100;
+  text-align:right;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);*/
+
+  /*z-index: 100;
+  position: absolute;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;*/
+   /*text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);*/
+}
+
+#weather ul {
+    margin-top:200px;
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+  background: #fff;
+  background: rgba(255,255,255,0.90);
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#weather .currently {
+  margin: 0 20px;
+}
+#img
+{
+    position: absolute;
+        left: 0;
+        top: 0;
+}
+
+  #text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}
+
+  #container {
+  padding-top:200px;
+  position: relative;
+}
+
+</style>    
+    
+<script type="text/javascript">
+
+    $(function () {
+        $.connection.hub.url = "http://localhost:8000/signalr";
+        var IwannaChat = $.connection.weatherHub;
+        IwannaChat.client.readSensor = function (message) {
+            var obj = jQuery.parseJSON(message);
+            var data = obj.Data;
+
+            var Humidity=0.00;
+            var CTemperature=0.00;
+            var FTemperature=0.00;
+            var CHeadIndex=0.00;
+
+            $(data).each(function (i, item) {
+
+                switch (item.Key) { 
+                    case 'Humidity': 
+                        Humidity=item.Value;
+                        break;
+                    case 'CTemperature': 
+                        CTemperature=item.Value;
+                        break;
+                    case 'FTemperature': 
+                        FTemperature=item.Value;
+                        break;
+                    case 'CHeadIndex': 
+                        CHeadIndex=item.Value;
+                        break;
+                    default:                       
+                }
+
+            });
+
+            //$("#weather_widget").append("<li>" + Humidity + "</li>");
+            //$("#weather_widget").append("<li>" + CTemperature + "</li>");
+            //$("#weather_widget").append("<li>" + FTemperature + "</li>");
+        };
+
+        $.connection.hub.start();
+    });
+
+  
+
+    $(document).ready(function () {
+        $.simpleWeather({
+            location:'-6.231860, 106.847338',
+            unit: 'c',
+            success: function (weather) {
+                html = '<img id="img" src="' + weather.image + '" />'
+                //html += '</br><h2>' + weather.temp + '&deg;' + weather.units.temp + '</h2>';
+                //html += '<ul><li>' + weather.city + ', ' + weather.region + '</li>';
+                //html += '<li class="currently">' + weather.currently + '</li>';
+                //html += '<li>' + weather.wind.direction + ' ' + weather.wind.speed + ' ' + weather.units.speed + '</li></ul>';
+                //html += '<img src="' + weather.thumbnail + '" />';
+                $("#weather").html(html);
+                $("#suhu").html(weather.temp + '&deg;' + weather.units.temp);
+            },
+            error: function (error) {
+                $("#weather").html('<p>' + error + '</p>');
+            }
+        });
+    });
+
+ 
+</script>
+<div id="container">
+<table>
+    <tr>
+        <td><div id="weather"></div></td>
+        <td><div id="suhu"></div></td>
+    </tr>
+</table>
+
+</div>
+
+    
+    
+}

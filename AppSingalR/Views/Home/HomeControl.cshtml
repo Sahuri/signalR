@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Lamp";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+
+
+<h2>Lamp</h2>
+<div ng-controller="lampController">
+    
+    <table style="text-align:center;font-family:Calibri;font-size:small;">
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+            <td>04</td>
+            <td>05</td>
+            <td>06</td>
+            <td>07</td>
+            <td>08</td>
+        </tr>
+        <tr>
+            <td><a class="easyui-linkbutton" ng-model="b1" ng-click="send('b1',b1)">{{b1}}</a></td>
+            <td><a class="easyui-linkbutton" ng-model="b2" ng-click="send('b2',b2)">{{b2}}</a></td>
+            <td><a class="easyui-linkbutton" ng-model="b3" ng-click="send('b3',b3)">{{b3}}</a></td>
+            <td><a class="easyui-linkbutton" ng-model="b4" ng-click="send('b4',b4)">{{b4}}</a></td>
+            <td><a class="easyui-linkbutton" ng-model="b5" ng-click="send('b5',b5)">{{b5}}</a></td>
+            <td><a class="easyui-linkbutton" ng-model="b6" ng-click="send('b6',b6)">{{b6}}</a></td>
+            <td><a class="easyui-linkbutton" ng-model="b7" ng-click="send('b7',b7)">{{b7}}</a></td>
+            <td><a class="easyui-linkbutton" ng-model="b8" ng-click="send('b8',b8)">{{b8}}</a></td>
+        </tr>
+    </table>
+<ul id="listMesagges">
+</ul>
+<span id="msg"></span>
+</div>
+
+<script src="~/Scripts/app/controller/lampController.js"></script>
